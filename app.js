@@ -22,7 +22,7 @@ const connect = mongoose.connect(url, {
   useUnifiedTopology: true
 });
 
-connect.then(() => console.log('Connect correctly to the server'),
+connect.then(() => console.log('Connected correctly to the server'),
   err => console.log(err)
 );
 
